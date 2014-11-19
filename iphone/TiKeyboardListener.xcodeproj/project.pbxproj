@@ -22,16 +22,16 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		24DE9E1111C5FE74003F90F6 /* NetIamyellowTikeyboardlistenerModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* NetIamyellowTikeyboardlistenerModuleAssets.h */; };
-		24DE9E1211C5FE74003F90F6 /* NetIamyellowTikeyboardlistenerModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* NetIamyellowTikeyboardlistenerModuleAssets.m */; };
-		AA747D9F0F9514B9006C5449 /* NetIamyellowTikeyboardlistener_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* NetIamyellowTikeyboardlistener_Prefix.pch */; };
+		24DD6CF91134B3F500162E58 /* UaKeyboardlistenerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* UaKeyboardlistenerModule.h */; };
+		24DD6CFA1134B3F500162E58 /* UaKeyboardlistenerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* UaKeyboardlistenerModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* UaKeyboardlistenerModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* UaKeyboardlistenerModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* UaKeyboardlistenerModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* UaKeyboardlistenerModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* UaKeyboardlistener_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* UaKeyboardlistener_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		FDE7835217E8643400B9F08B /* NetIamyellowTikeyboardlistenerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE7834C17E8643400B9F08B /* NetIamyellowTikeyboardlistenerModule.h */; };
-		FDE7835317E8643400B9F08B /* NetIamyellowTikeyboardlistenerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7834D17E8643400B9F08B /* NetIamyellowTikeyboardlistenerModule.m */; };
-		FDE7835417E8643400B9F08B /* NetIamyellowTikeyboardlistenerView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE7834E17E8643400B9F08B /* NetIamyellowTikeyboardlistenerView.h */; };
-		FDE7835517E8643400B9F08B /* NetIamyellowTikeyboardlistenerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7834F17E8643400B9F08B /* NetIamyellowTikeyboardlistenerView.m */; };
-		FDE7835617E8643400B9F08B /* NetIamyellowTikeyboardlistenerViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE7835017E8643400B9F08B /* NetIamyellowTikeyboardlistenerViewProxy.h */; };
-		FDE7835717E8643400B9F08B /* NetIamyellowTikeyboardlistenerViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7835117E8643400B9F08B /* NetIamyellowTikeyboardlistenerViewProxy.m */; };
+		BB35D9D81A1CD9EC00F58F3A /* UaKeyboardlistenerView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB35D9D61A1CD9EC00F58F3A /* UaKeyboardlistenerView.h */; };
+		BB35D9D91A1CD9EC00F58F3A /* UaKeyboardlistenerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB35D9D71A1CD9EC00F58F3A /* UaKeyboardlistenerView.m */; };
+		BB35D9DC1A1CD9FF00F58F3A /* UaKeyboardlistenerViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = BB35D9DA1A1CD9FF00F58F3A /* UaKeyboardlistenerViewProxy.h */; };
+		BB35D9DD1A1CD9FF00F58F3A /* UaKeyboardlistenerViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB35D9DB1A1CD9FF00F58F3A /* UaKeyboardlistenerViewProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,23 +40,23 @@
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = tikeyboardlistener;
+			remoteInfo = TiKeyboardListener;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* UaKeyboardlistenerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UaKeyboardlistenerModule.h; path = Classes/UaKeyboardlistenerModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* UaKeyboardlistenerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UaKeyboardlistenerModule.m; path = Classes/UaKeyboardlistenerModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* NetIamyellowTikeyboardlistenerModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetIamyellowTikeyboardlistenerModuleAssets.h; path = Classes/NetIamyellowTikeyboardlistenerModuleAssets.h; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* NetIamyellowTikeyboardlistenerModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetIamyellowTikeyboardlistenerModuleAssets.m; path = Classes/NetIamyellowTikeyboardlistenerModuleAssets.m; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* NetIamyellowTikeyboardlistener_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetIamyellowTikeyboardlistener_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		24DE9E0F11C5FE74003F90F6 /* UaKeyboardlistenerModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UaKeyboardlistenerModuleAssets.h; path = Classes/UaKeyboardlistenerModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* UaKeyboardlistenerModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UaKeyboardlistenerModuleAssets.m; path = Classes/UaKeyboardlistenerModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* UaKeyboardlistener_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UaKeyboardlistener_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libNetIamyellowTikeyboardlistener.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetIamyellowTikeyboardlistener.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDE7834C17E8643400B9F08B /* NetIamyellowTikeyboardlistenerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetIamyellowTikeyboardlistenerModule.h; path = Classes/NetIamyellowTikeyboardlistenerModule.h; sourceTree = "<group>"; };
-		FDE7834D17E8643400B9F08B /* NetIamyellowTikeyboardlistenerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetIamyellowTikeyboardlistenerModule.m; path = Classes/NetIamyellowTikeyboardlistenerModule.m; sourceTree = "<group>"; };
-		FDE7834E17E8643400B9F08B /* NetIamyellowTikeyboardlistenerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetIamyellowTikeyboardlistenerView.h; path = Classes/NetIamyellowTikeyboardlistenerView.h; sourceTree = "<group>"; };
-		FDE7834F17E8643400B9F08B /* NetIamyellowTikeyboardlistenerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetIamyellowTikeyboardlistenerView.m; path = Classes/NetIamyellowTikeyboardlistenerView.m; sourceTree = "<group>"; };
-		FDE7835017E8643400B9F08B /* NetIamyellowTikeyboardlistenerViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetIamyellowTikeyboardlistenerViewProxy.h; path = Classes/NetIamyellowTikeyboardlistenerViewProxy.h; sourceTree = "<group>"; };
-		FDE7835117E8643400B9F08B /* NetIamyellowTikeyboardlistenerViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetIamyellowTikeyboardlistenerViewProxy.m; path = Classes/NetIamyellowTikeyboardlistenerViewProxy.m; sourceTree = "<group>"; };
+		BB35D9D61A1CD9EC00F58F3A /* UaKeyboardlistenerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UaKeyboardlistenerView.h; path = Classes/UaKeyboardlistenerView.h; sourceTree = "<group>"; };
+		BB35D9D71A1CD9EC00F58F3A /* UaKeyboardlistenerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UaKeyboardlistenerView.m; path = Classes/UaKeyboardlistenerView.m; sourceTree = "<group>"; };
+		BB35D9DA1A1CD9FF00F58F3A /* UaKeyboardlistenerViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UaKeyboardlistenerViewProxy.h; path = Classes/UaKeyboardlistenerViewProxy.h; sourceTree = "<group>"; };
+		BB35D9DB1A1CD9FF00F58F3A /* UaKeyboardlistenerViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UaKeyboardlistenerViewProxy.m; path = Classes/UaKeyboardlistenerViewProxy.m; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libUaKeyboardlistener.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUaKeyboardlistener.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +74,12 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libNetIamyellowTikeyboardlistener.a */,
+				D2AAC07E0554694100DB518D /* libUaKeyboardlistener.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0867D691FE84028FC02AAC07 /* tikeyboardlistener */ = {
+		0867D691FE84028FC02AAC07 /* TiKeyboardListener */ = {
 			isa = PBXGroup;
 			children = (
 				08FB77AEFE84172EC02AAC07 /* Classes */,
@@ -87,7 +87,7 @@
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
-			name = tikeyboardlistener;
+			name = TiKeyboardListener;
 			sourceTree = "<group>";
 		};
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
@@ -101,14 +101,14 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FDE7834C17E8643400B9F08B /* NetIamyellowTikeyboardlistenerModule.h */,
-				FDE7834D17E8643400B9F08B /* NetIamyellowTikeyboardlistenerModule.m */,
-				FDE7834E17E8643400B9F08B /* NetIamyellowTikeyboardlistenerView.h */,
-				FDE7834F17E8643400B9F08B /* NetIamyellowTikeyboardlistenerView.m */,
-				FDE7835017E8643400B9F08B /* NetIamyellowTikeyboardlistenerViewProxy.h */,
-				FDE7835117E8643400B9F08B /* NetIamyellowTikeyboardlistenerViewProxy.m */,
-				24DE9E0F11C5FE74003F90F6 /* NetIamyellowTikeyboardlistenerModuleAssets.h */,
-				24DE9E1011C5FE74003F90F6 /* NetIamyellowTikeyboardlistenerModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* UaKeyboardlistenerModule.h */,
+				24DD6CF81134B3F500162E58 /* UaKeyboardlistenerModule.m */,
+				24DE9E0F11C5FE74003F90F6 /* UaKeyboardlistenerModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* UaKeyboardlistenerModuleAssets.m */,
+				BB35D9D61A1CD9EC00F58F3A /* UaKeyboardlistenerView.h */,
+				BB35D9D71A1CD9EC00F58F3A /* UaKeyboardlistenerView.m */,
+				BB35D9DA1A1CD9FF00F58F3A /* UaKeyboardlistenerViewProxy.h */,
+				BB35D9DB1A1CD9FF00F58F3A /* UaKeyboardlistenerViewProxy.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -116,7 +116,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA747D9E0F9514B9006C5449 /* NetIamyellowTikeyboardlistener_Prefix.pch */,
+				AA747D9E0F9514B9006C5449 /* UaKeyboardlistener_Prefix.pch */,
 				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
 			);
 			name = "Other Sources";
@@ -129,20 +129,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDE7835617E8643400B9F08B /* NetIamyellowTikeyboardlistenerViewProxy.h in Headers */,
-				FDE7835217E8643400B9F08B /* NetIamyellowTikeyboardlistenerModule.h in Headers */,
-				AA747D9F0F9514B9006C5449 /* NetIamyellowTikeyboardlistener_Prefix.pch in Headers */,
-				24DE9E1111C5FE74003F90F6 /* NetIamyellowTikeyboardlistenerModuleAssets.h in Headers */,
-				FDE7835417E8643400B9F08B /* NetIamyellowTikeyboardlistenerView.h in Headers */,
+				BB35D9DC1A1CD9FF00F58F3A /* UaKeyboardlistenerViewProxy.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* UaKeyboardlistener_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* UaKeyboardlistenerModule.h in Headers */,
+				BB35D9D81A1CD9EC00F58F3A /* UaKeyboardlistenerView.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* UaKeyboardlistenerModuleAssets.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D2AAC07D0554694100DB518D /* tikeyboardlistener */ = {
+		D2AAC07D0554694100DB518D /* TiKeyboardListener */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "tikeyboardlistener" */;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiKeyboardListener" */;
 			buildPhases = (
 				D2AAC07A0554694100DB518D /* Headers */,
 				D2AAC07B0554694100DB518D /* Sources */,
@@ -152,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = tikeyboardlistener;
-			productName = tikeyboardlistener;
-			productReference = D2AAC07E0554694100DB518D /* libNetIamyellowTikeyboardlistener.a */;
+			name = TiKeyboardListener;
+			productName = TiKeyboardListener;
+			productReference = D2AAC07E0554694100DB518D /* libUaKeyboardlistener.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +164,7 @@
 			isa = PBXProject;
 			attributes = {
 			};
-			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tikeyboardlistener" */;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiKeyboardListener" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -174,12 +174,12 @@
 				French,
 				German,
 			);
-			mainGroup = 0867D691FE84028FC02AAC07 /* tikeyboardlistener */;
+			mainGroup = 0867D691FE84028FC02AAC07 /* TiKeyboardListener */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC07D0554694100DB518D /* tikeyboardlistener */,
+				D2AAC07D0554694100DB518D /* TiKeyboardListener */,
 				24416B8111C4CA220047AFDD /* Build & Test */,
 			);
 		};
@@ -206,10 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DE9E1211C5FE74003F90F6 /* NetIamyellowTikeyboardlistenerModuleAssets.m in Sources */,
-				FDE7835517E8643400B9F08B /* NetIamyellowTikeyboardlistenerView.m in Sources */,
-				FDE7835317E8643400B9F08B /* NetIamyellowTikeyboardlistenerModule.m in Sources */,
-				FDE7835717E8643400B9F08B /* NetIamyellowTikeyboardlistenerViewProxy.m in Sources */,
+				BB35D9D91A1CD9EC00F58F3A /* UaKeyboardlistenerView.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* UaKeyboardlistenerModule.m in Sources */,
+				BB35D9DD1A1CD9FF00F58F3A /* UaKeyboardlistenerViewProxy.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* UaKeyboardlistenerModuleAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +218,7 @@
 /* Begin PBXTargetDependency section */
 		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2AAC07D0554694100DB518D /* tikeyboardlistener */;
+			target = D2AAC07D0554694100DB518D /* TiKeyboardListener */;
 			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -230,11 +230,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = /tmp/NetIamyellowTikeyboardlistener.dst;
+				DSTROOT = /tmp/UaKeyboardlistener.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NetIamyellowTikeyboardlistener_Prefix.pch;
+				GCC_PREFIX_HEADER = UaKeyboardlistener_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -253,7 +253,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NetIamyellowTikeyboardlistener;
+				PRODUCT_NAME = UaKeyboardlistener;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -267,11 +267,11 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/NetIamyellowTikeyboardlistener.dst;
+				DSTROOT = /tmp/UaKeyboardlistener.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NetIamyellowTikeyboardlistener_Prefix.pch;
+				GCC_PREFIX_HEADER = UaKeyboardlistener_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -288,7 +288,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NetIamyellowTikeyboardlistener;
+				PRODUCT_NAME = UaKeyboardlistener;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -299,13 +299,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = /tmp/NetIamyellowTikeyboardlistener.dst;
+				DSTROOT = /tmp/UaKeyboardlistener.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NetIamyellowTikeyboardlistener_Prefix.pch;
+				GCC_PREFIX_HEADER = UaKeyboardlistener_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -323,7 +324,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NetIamyellowTikeyboardlistener;
+				PRODUCT_NAME = UaKeyboardlistener;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -337,11 +338,12 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/NetIamyellowTikeyboardlistener.dst;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DSTROOT = /tmp/UaKeyboardlistener.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NetIamyellowTikeyboardlistener_Prefix.pch;
+				GCC_PREFIX_HEADER = UaKeyboardlistener_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -357,7 +359,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NetIamyellowTikeyboardlistener;
+				PRODUCT_NAME = UaKeyboardlistener;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -390,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "tikeyboardlistener" */ = {
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiKeyboardListener" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
@@ -399,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tikeyboardlistener" */ = {
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiKeyboardListener" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
